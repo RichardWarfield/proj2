@@ -1,0 +1,58 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1706173671,
+        "narHash": "sha256-lciR7kQUK2FCAYuszyd7zyRRmTaXVeoZsCyK6QFpGdk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4fddc9be4eaf195d631333908f2a454b03628ee5",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1706173671,
+        "narHash": "sha256-lciR7kQUK2FCAYuszyd7zyRRmTaXVeoZsCyK6QFpGdk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4fddc9be4eaf195d631333908f2a454b03628ee5",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "proj1": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1706345082,
+        "narHash": "sha256-OYByCeaaRufxDyIzTbpf6H53gUjWwjp3Zv1sdli/zZM=",
+        "ref": "refs/heads/master",
+        "rev": "800225b102885eddc163b9db14f0d710bcba1952",
+        "revCount": 1,
+        "type": "git",
+        "url": "ssh://git@github.com/RichardWarfield/proj1.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/RichardWarfield/proj1.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "proj1": "proj1"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
