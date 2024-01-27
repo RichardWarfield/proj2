@@ -13,5 +13,7 @@
         mv hello_world $out/
       '';
     };
+
+    hydraJobs.proj2.x86_64-linux = self.defaultPackage.x86_64-linux;
   };
 }
